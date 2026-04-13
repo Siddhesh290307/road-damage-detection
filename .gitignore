@@ -1,0 +1,124 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+ENV/
+.venv/
+.env/
+conda-env/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# YOLOv5 / Ultralytics
+# ========================
+runs/
+wandb/
+*.cache
+*.npy
+*.npz
+
+# ========================
+# Model Weights
+# ========================
+# Uncomment below if you do NOT want to track weights in Git
+# testing/weights/
+# *.pt
+# *.pth
+# *.onnx
+# *.engine
+# *.tflite
+# *.torchscript
+
+# ========================
+# Dataset (large files — use Git LFS or exclude entirely)
+# ========================
+dataset/combined_dataset/train/
+dataset/combined_dataset/valid/
+dataset/combined_dataset/test/
+# Keep data.yaml tracked
+!dataset/combined_dataset/data.yaml
+
+# ========================
+# Test Images & Outputs
+# ========================
+# Comment out if you want to track test results
+testing/outputs/
+# testing/images/   # Uncomment to also ignore test input images
+
+# ========================
+# OS & IDE Files
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# ========================
+# Logs & Temp Files
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+log/
+logs/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*
+secrets.yaml
+config_local.py

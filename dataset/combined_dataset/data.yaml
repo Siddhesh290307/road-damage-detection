@@ -1,0 +1,12 @@
+path: C:\Users\Siddhesh\OneDrive\Desktop\detection\combined_dataset
+train: train/images
+val: valid/images
+test: test/images
+nc: 6
+names:
+- crack
+- damage
+- pothole
+- pothole_water
+- pothole_water_m
+- garbage
